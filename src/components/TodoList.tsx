@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Todo } from '../types/Todo';
 import { TodoItem } from './Todo';
-
 interface Props {
   todos: Todo[];
   tempTodo: Todo | null;
